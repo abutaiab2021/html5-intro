@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pitha Khor</title>
+    <link rel="stylesheet" href="css/pitha-ghor.css">
 </head>
 <body>
     <header>
@@ -12,11 +13,14 @@
     <main>
         <section>
             <form >
-                <label for="name">Your Name:</label>
-                <input type="text" name="" id="name">
+                <fieldset class="basic">
+                    <legend>Basic Information</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="" id="name">
 
-                <label for="email">Your Email: </label>
-                <input type="email" name="" id="email">
+                    <label for="email">Your Email: </label>
+                    <input type="email" name="" id="email">
+                </fieldset>
 
                 <fieldset>
                     <legend>Pitha Info</legend>
@@ -48,8 +52,10 @@
                     <textarea cols="50" rows="4" name="" id=""></textarea>
                 </fieldset>
 
-                <input type="submit" value="Submit">
-                <input type="reset" value="Clear">
+                <fieldset class="buttons">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </fieldset>
 
             </form>
         </section>

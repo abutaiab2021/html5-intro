@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+form{
+    width: 50%;
+}
+form .basic label{
+    display: block;
+    margin-top: 15px;
+}
+
+.buttons{
+display: block;
+text-align: center;
+
+}
+
+header{
+    text-align: center;
+}
+
+header h2{
+    text-align: center;
+    border: 5px solid green;
+    border-radius: 10px;
+    width: 50%;
+}
