@@ -2,10 +2,16 @@ body{
     max-width: 1250px;
     margin: 0 auto;
 }
+
 .card-container{
     background-color: antiquewhite;
     border-radius: 25px;
     font-size: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 20px;
 }
 
 .card-container img{
@@ -20,10 +26,12 @@ body{
     padding: 10px 20px;
     background-color: coral;
     font-weight: bold;
+    cursor: pointer;
 }
 .card{
     background-color: aquamarine;
     width: 300px;
     padding: 25px;
     border-radius: 25px;
+    border: 0;
 }
